@@ -1,0 +1,93 @@
+import numpy as np
+from math import log
+def mynum(x, y):
+    return x * y
+mynum = np.frompyfunc(mynum, 2,1)
+print(mynum([1, 2, 3, 4], [5, 6, 7, 8]))
+print(type(mynum))
+print(type(np.concatenate))
+
+if type(np.add) == np.ufunc:
+    print("this is")
+else:
+    print("wtf")
+
+a1 = [1,2,3,4,5,5,4]
+a2 = [6,7,8,9,10,11,5]
+
+print(np.add(a1, a2))
+print(np.subtract(a1, a2))
+print(np.multiply(a1, a2))
+print(np.divide(a1, a2))
+print(np.power(a1, a2))
+print(np.mod(a1, a2))
+print(np.divmod(a1, a2))
+print(np.remainder(a1, a2))
+arr = np.array([-1, -2, 1, 2, 3, -4])
+print(np.absolute(arr))
+arr1 = np.trunc([-3.1666, 3.6667])
+print(arr1)
+arr2 = np.fix([-3.1666, 3.6667])
+print(arr2)
+arr3 = np.around(-3.1666, 2)
+print(arr3)
+arr4 = np.floor([-3.1666, 3.6667])
+print(arr4)
+arr5 = np.ceil([-3.1666, 3.6667])
+print(arr5)
+arr6 = np.arange(1, 10)
+print(np.log2(arr6))
+
+arr7 = np.frompyfunc(log, 2, 1)
+print(log(100, 15))
+s1 = np.sum([a1, a2])
+print(s1)
+s2 = np.sum([a1, a2], axis=1)
+print(s2)
+s3 = np.cumsum(a1)
+print(s3)
+s4 = np.prod([a1, a2])
+print(s4)
+s5 = np.prod([a1, a2], axis= 1)
+print(s5)
+s6 = np.cumprod(a1)
+print(s6)
+s7 = np.diff(a2)
+print(s7)
+s8 = np.diff(a2, n=2)
+print(s8)
+num1 = 4
+num2 = 6
+num3 = np.lcm(num1, num2)
+print(num3)
+num5 = np.lcm.reduce(a1)
+print(num5)
+arr9 = np.arange(1, 11)
+print(np.lcm.reduce(arr9))
+print(np.gcd(a1, a2))
+print(np.gcd.reduce(a1))
+
+sin1 = np.sin([np.pi/2, np.pi/3, np.pi/4])
+print(sin1)
+print(np.sinh(sin1))
+print(np.cosh(sin1))
+print(np.arcsinh(sin1))
+sin2 = np.array([90, 180, 270, 360])
+sin3 = np.deg2rad(sin2)
+print(sin3)
+sin4 = np.sin([np.pi/2, np.pi/3, np.pi/4])
+sin5 = np.rad2deg(sin4)
+print(sin5)
+sin6 = np.arcsin(1.0)
+print(sin6)
+sin7 = np.array([1, -1, 0.1])
+print(np.arcsin(sin7))
+base = 3
+prep = 4
+p = np.hypot(base, prep)
+print(p)
+print(np.unique(a1))
+print(np.union1d(a1, a2))
+print(np.intersect1d(a1, a2, assume_unique=True))
+print(np.setdiff1d(a1, a2, assume_unique=True))
+print(np.setxor1d(a1, a2, assume_unique=True))
