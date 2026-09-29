@@ -2,7 +2,7 @@
 
 A comprehensive guide to NumPy, covering array operations, random distributions, mathematical functions, and more. This repository includes practical code examples and detailed explanations for beginners and intermediate users.
 
-## 📚 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Installation](#installation)
@@ -16,7 +16,7 @@ A comprehensive guide to NumPy, covering array operations, random distributions,
 - [Contributing](#contributing)
 - [License](#license)
 
-## 🎯 Overview
+## Overview
 
 This project provides a complete, hands-on introduction to NumPy—Python's fundamental package for numerical computing. Whether you're new to data science or looking to deepen your NumPy skills, this tutorial covers essential concepts with practical examples.
 
@@ -26,7 +26,7 @@ NumPy is used for:
 - Data manipulation and analysis
 - Building foundations for machine learning and scientific computing
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.7 or higher
@@ -43,7 +43,7 @@ Or install using conda:
 conda install numpy matplotlib seaborn
 ```
 
-## ✨ Features
+## Features
 
 - **Beginner-friendly**: Detailed comments explaining each operation
 - **Comprehensive coverage**: From basic arrays to advanced mathematical functions
@@ -51,7 +51,7 @@ conda install numpy matplotlib seaborn
 - **Interactive**: Run examples directly and modify them to experiment
 - **Visualizations**: Includes matplotlib and seaborn for distribution plotting
 
-## 📖 Topics Covered
+## Topics Covered
 
 ### 1. Basic Array Operations
 - Creating multi-dimensional arrays (1D, 2D, 3D)
@@ -103,7 +103,7 @@ conda install numpy matplotlib seaborn
 - Union, intersection, difference
 - Symmetric difference (exclusive or)
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Running the Tutorial
 
@@ -121,7 +121,7 @@ Each section is clearly marked with comments. You can:
 3. Modify values and observe changes
 4. Experiment with different array sizes and parameters
 
-## 📝 Code Structure
+## Code Structure
 
 ```
 numpy_tutorial.py
@@ -159,7 +159,7 @@ numpy_tutorial.py
     └── Difference operations
 ```
 
-## 🎓 Key Concepts
+## Key Concepts
 
 ### Arrays and Shapes
 Arrays are the foundation of NumPy. They can have multiple dimensions:
@@ -179,7 +179,7 @@ NumPy functions that operate element-wise on arrays for speed and efficiency.
 ### Broadcasting
 NumPy automatically extends operations across arrays of different shapes when possible.
 
-## 💡 Examples
+## Examples
 
 ### Creating and Manipulating Arrays
 ```python
@@ -256,7 +256,7 @@ np.setdiff1d(a1, a2)             # Elements in a1 but not a2
 - **SciPy**: Scientific computing
 - **Scikit-learn**: Machine learning
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! If you find issues or want to add content:
 
@@ -274,7 +274,7 @@ If you have questions or suggestions:
 - Submit a discussion topic
 - Reach out with feedback
 
-## ⭐ Acknowledgments
+## Acknowledgments
 
 This tutorial covers concepts from NumPy's official documentation and best practices from the scientific Python community.
 
