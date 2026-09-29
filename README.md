@@ -239,7 +239,7 @@ np.intersect1d(a1, a2)           # Common elements
 np.setdiff1d(a1, a2)             # Elements in a1 but not a2
 ```
 
-## 📚 Resources
+## Resources
 
 ### Official Documentation
 - [NumPy Documentation](https://numpy.org/doc/)
@@ -267,7 +267,7 @@ Contributions are welcome! If you find issues or want to add content:
 5. Open a Pull Request
 
 
-## 📧 Contact & Questions
+## Contact & Questions
 
 If you have questions or suggestions:
 - Open an issue on GitHub
